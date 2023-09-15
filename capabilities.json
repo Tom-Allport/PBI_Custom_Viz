@@ -1,0 +1,47 @@
+{
+  "privileges": [],
+  "dataRoles": [
+    {
+      "displayName": "Values",
+      "kind": "GroupingOrMeasure",
+      "name": "dataset"
+    }
+  ],
+  "dataViewMappings": [
+    {
+      "scriptResult": {
+        "dataInput": {
+          "table": {
+            "rows": {
+              "select": [
+                {
+                  "for": {
+                    "in": "dataset"
+                  }
+                }
+              ],
+              "dataReductionAlgorithm": {
+                "top": {}
+              }
+            }
+          }
+        },
+        "script": {
+          "scriptProviderDefault": "R",
+          "scriptOutputType": "png",
+          "source": {
+            "objectName": "rcv_script",
+            "propertyName": "source"
+          },
+          "provider": {
+            "objectName": "rcv_script",
+            "propertyName": "provider"
+          }
+        }
+      }
+    }
+  ],
+  "objects": {},
+  "suppressDefaultTitle": true
+  
+}

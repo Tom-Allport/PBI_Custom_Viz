@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "author": {"name":"Tom Allport","email":"tom@datern.co.uk"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/rVisualSampleB4FE1C3DD88B47E18DF5E756A63E1160.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"rVisualSample","displayName":"rVisualSample","guid":"rVisualSampleB4FE1C3DD88B47E18DF5E756A63E1160","visualClassName":"Visual","version":"1.0.0","description":"sample visual","supportUrl":"https://datern.co.uk","gitHubUrl":""},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}
